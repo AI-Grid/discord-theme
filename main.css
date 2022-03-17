@@ -1,5 +1,23 @@
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://raw.githubusercontent.com/AI-Grid/discord-theme/main/radialstatus.css');
+@import url('https://raw.githubusercontent.com/AI-Grid/discord-theme/main/horizontialserverlist.css');
+:root {
+--main-color: #E60000FF;
+--hover-color: #B30000FF;
+--success-color: #B30000FF;
+--danger-color: #982929;
+--url-color: #E60000FF;
+--online-color: #43b581;
+--idle-color: #C9FA44FF;
+--dnd-color: #982929;
+--streamig-color: #593695;
+--offline-color: #808080;
+--main-font: 'Game of Squids';
+--code-font: 'Game of Squids';
+--text-normal: #DE0000FF;
+--text-muted: #FFDA62FF;
+--channels-width: 220px;
+--members-width: 240px;
+}
 :root {
 	--Settings-Theme-Version: "DiscordNight v0.9.5.2";
 	
@@ -9489,3 +9507,4 @@ body {
 	background-color: var(--status-positive-background);
 	color: #FFFFFF;
 }
+
